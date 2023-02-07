@@ -1,0 +1,135 @@
+/* global prop */
+
+body {
+    background: url("img/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+ :root{
+  --main-background:transparent url(img/counter_digits.png) no-repeat;
+  --yellow-color:#ffc400;
+ }
+
+
+  #centered_div {
+    position:absolute;
+    	top: 30%;
+    	left: 50%;
+      width:30em;
+      height:18em;
+      margin-top: -9em; /*st to a negative number 1/2 of your height*/
+      margin-left: -15em; /*set to a negative number 1/2 of your width*/
+      text-align: center;
+    }
+
+  #centered_div h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+  }
+
+  h3{
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 10px;
+  }
+
+  p{
+    display: inline-block;
+    margin: 10px;      
+  }
+  
+  a{
+      color: #222;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      background-color: var(--yellow-color);
+      padding: 10px;
+      border-radius: 5px;
+  }
+ 
+  a:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid var(--yellow-color);
+  }
+
+  #counter{  
+      margin-top: 20px;
+      margin-left: 165px;
+      background-color: #222;
+      width: 154px; 
+      height: 59px;  
+      border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -opera-border-radius: 3px;
+    -moz-border-radius: 3px;
+  }
+  
+  #counter_item1{  
+      margin-left: 2px;  
+  }
+
+  .counter_item{ 
+    width: 30px; 
+    height: 55px;    
+    background: transparent url(img/counter_back.gif) no-repeat;
+    overflow: hidden;  
+    float: left;  
+    margin-top: 2px;
+  }
+
+   
+  .counter_item .digit,
+  .counter_item .front{ 
+    width: 30px;   
+    height: 55px;   
+    overflow: hidden;
+  }
+
+  .counter_item .front{  
+    background: transparent url(img/counter_front.png) no-repeat;  
+    position: fixed;
+    z-index: 10;     
+  }
+
+  .counter_item .digit_colon{
+    background: var(--main-background) 0 0px;
+  }
+
+.counter_item .digit0{
+    background: var(--main-background) 0 -55px;
+  }
+
+.counter_item .digit1{
+  background: var(--main-background) 0 -110px; 
+  }
+.counter_item .digit2{ 
+  background: var(--main-background) 0 -165px;
+  }
+.counter_item .digit3{
+  background: var(--main-background) 0 -220px;
+  }
+.counter_item .digit4{
+  background: var(--main-background) 0 -275px;
+  }
+.counter_item .digit5{
+  background: var(--main-background) 0 -330px;
+  }
+.counter_item .digit6{
+  background: var(--main-background) 0 -385px;
+  }
+.counter_item .digit7{
+  background: var(--main-background) 0 -440px;
+  }
+.counter_item .digit8{
+  background: var(--main-background) 0 -495px;
+  }
+.counter_item .digit9{
+  background: var(--main-background) 0 -550px;
+  }
+.counter_item .digit_cherry{
+  background: transparent url(img/00.jpg) no-repeat 0 -605px;
+  }
+    
